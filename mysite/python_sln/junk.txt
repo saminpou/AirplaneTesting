@@ -1,0 +1,2 @@
+from dbtest.models import Process,User,StateType,State,Request,Transition,ActionType,Action,Group,Target,ActionTarget,RequestAction
+u1 = User.objects.create(first_name="Jane", last_name="Smith", email="a@a.com", phone="647-745-5234")
